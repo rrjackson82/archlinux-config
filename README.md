@@ -4,4 +4,7 @@
 - I use Hyprland and KDE
 
 # Screenshots
-![home_screen](https://github.com/rrjackson82/archlinux-config/blob/master/imgs/desktop.png)
+### Hyprland
+[hyprland_home](https://github.com/rrjackson82/archlinux-config/blob/master/imgs/hyprland-desktop.png)
+### KDE
+[kde_home](https://github.com/rrjackson82/archlinux-config/blob/master/imgs/kde-desktop.png)
