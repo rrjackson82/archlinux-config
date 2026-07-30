@@ -1,0 +1,66 @@
+#background #0d1925
+#foreground #d9e5f1
+#cursor #d9e5f1
+#color0 #000000
+#color8 #252525
+#color1 #b87979
+#color9 #dabdbd
+#color2 #79b879
+#color10 #bddabd
+#color3 #b8b879
+#color11 #dadabd
+#color4 #7979b8
+#color12 #bdbdda
+#color5 #b879b8
+#color13 #dabdda
+#color6 #79b8b8
+#color14 #bddada
+#color7 #d9d9d9
+#color15 #ffffff
+#selection_foreground #0d1925
+#selection_background #d9e6f2
+
+#active_tab_foreground   #ced9e5
+active_tab_foreground   #AF7C7A
+active_tab_background   #19242c
+active_tab_font_style   bold-italic
+inactive_tab_foreground #c3ced9
+inactive_tab_background #25303b
+inactive_tab_font_style normal
+
+include themes/frappe.conf
+
+# BEGIN_KITTY_FONTS
+font_family      family="JetBrainsMonoNL Nerd Font Propo Regular"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+font_size 12
+# END_KITTY_FONTS
+
+scrollback_lines 5000
+tab_bar_style powerline
+tab_powerline_style slanted
+#tab_bar_align center
+tab_bar_show_new_tab_button yes
+
+
+macos_titlebar_color background
+macos_quit_when_last_window_closed yes
+cursor_shape beam
+
+
+background_opacity 0.8
+background_blur 25
+dynamic_background_opacity yes
+# sync refresh rate to monitor 
+sync_to_monitor yes
+
+enable_audio_bell no
+
+shell /bin/zsh --login --interactive
+editor nvim
+
+
+
+
