@@ -5,6 +5,6 @@
 
 # Screenshots
 ### Hyprland
-[https://github.com/rrjackson82/archlinux-config/blob/master/imgs/hyprland-desktop.png]
+![hyprland_home](https://github.com/rrjackson82/archlinux-config/blob/master/imgs/hyprland-desktop.png)
 ### KDE
-[https://github.com/rrjackson82/archlinux-config/blob/master/imgs/kde-desktop.png]
+![kde_home](https://github.com/rrjackson82/archlinux-config/blob/master/imgs/kde-desktop.png)
