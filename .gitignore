@@ -1,0 +1,64 @@
+*
+
+
+#############
+# GIT SETUP #
+#############
+
+!README.md
+!.gitignore
+
+# images of setup
+!imgs/
+!imgs/**
+
+###################
+# HYPRLAND CONFIG #
+###################
+
+# hyprland window manager
+!hypr/
+!hypr/**
+hypr/vars/
+hypr/vars/**
+
+# waybar conf
+!waybar/
+!waybar/**
+
+# waypaper conf (wallpaper)
+!waypaper/
+!waypaper/**
+
+#####################
+# TERMINAL STUFF :) #
+#####################
+
+# kitty conf (terminal emulator)
+!kitty/
+!kitty/**
+
+# arch btw :)
+!fastfetch/
+!fasftfetch/**
+
+  
+###############
+# NIRI CONFIG #
+###############
+
+# niri window manager
+!niri/
+!niri/config.kdl
+!niri/dms/
+!niri/dms/**
+
+# default niri file manager (i have three at this point, but i like nautilus, might use it in hyprland)
+!nautilus/
+!nautilus/**
+
+
+# kde
+!KDE/
+!KDE/**
+
