@@ -13,9 +13,10 @@ hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 
 hl.on("hyprland.start", function()
 	hl.exec_cmd("/usr/lib/hyprpolkitagent/hyprpolkitagent") -- thb idk
+	hl.exec_cmd("/usr/bin/dunst") -- everybody and their mom freaks out if ts isnt running (aka wayland) (aka it takes FOUR MINUTES to launch)
 	hl.exec_cmd("../hypr/vars/wifi-powersave.sh") -- powersave on wifi, custom script so you don't see my wifi ssid :)
 	hl.exec_cmd("hyprpm reload") -- reload somthing i lowk forgot
-	hl.exec_cmd("dbus-update-activation-environment --all") -- ?
+	hl.exec_cmd("dbus-update-activation-environment --all") -- ? nah tbh idk what any of this does i js copied and pasted from the docs. maybe that's why nothing works lmaooo
 	hl.exec_cmd("gnome-keyring-daemon --start --components=secrets") -- ts daemon pmo icl
 	hl.exec_cmd("waybar") -- goated
 	hl.exec_cmd("hyprpaper") -- wallpaper
