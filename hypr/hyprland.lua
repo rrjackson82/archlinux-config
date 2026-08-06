@@ -25,7 +25,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd("wl-paste --type text --watch cliphist store")
 	hl.exec_cmd("wl-paste --type image --watch cliphist store")
 	hl.exec_cmd("hyprctl setcursor Bibata-Modern-Classic 18") -- differnet cursor. idk if i like this one so i might change it
-	hl.exec_cmd("kitty") -- open terminal on startup
+	--hl.exec_cmd("kitty") -- open terminal on startup
 end)
 
 hl.config({
@@ -91,7 +91,7 @@ hl.permission({ binary = "/usr/(bin|local/bin)/hyprpm", type = "plugin", mode = 
 -- VARS --
 ----------
 
-local terminal = "kitty"
+local terminal = "alacritty"
 local menu = "wofi --show drun"
 local fileManager = "dolphin"
 --local browser = "firefox"
